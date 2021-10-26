@@ -3,7 +3,7 @@
 (Note: Instructions only valid for Redis 4 and Redis 5, as Redis 6 requires TLS connections and special configuration)
 
 1. Create a new, empty Heroku app.
-  * This process implies adding an extra buildpack and installing Redis tools, so this way it won't impact any of your existing apps.
+    * This process implies adding an extra buildpack and installing Redis tools, so this way it won't impact any of your existing apps.
 2. In the Heroku Dashboard for your app, go to Settings>Buildpacks and add `https://github.com/heroku/heroku-buildpack-apt`
 3. Create an `Aptfile` file in your app listing `redis-tools`, and a very basic `Procfile` too (example in this repo).
 4. Deploy the (almost) empty app.
