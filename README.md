@@ -10,7 +10,6 @@
 5. Start a one-off dyno for this app with `heroku run bash -a appname`.
 6. `redis-cli` will be installed in your new app's dynos and you'll be able to use it directly to interact with your Redis instance.
 7. Run `redis-cli -h HOSTNAME -p PORT -a PASSWORD`, replacing the hostname, password and port with the details from your Redis connection string.
-8. That's it!
 
 
 #### Example:
